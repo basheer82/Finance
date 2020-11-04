@@ -1,0 +1,48 @@
+
+  .flexbox
+  {
+    margin-left: 20%;
+   width: 600px;
+   height: 420px;
+   display: box;
+   display: -webkit-box;
+   box-orient: horizontal;
+   -webkit-box-orient: horizontal;
+  }
+
+
+  .flexbox > div
+  {
+   width: 180px;
+
+   border: 2px solid black;
+   -webkit-border: 2px solid black;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+
+   margin: 90px 0px 50px ;
+   padding: 10px 10px 10px 10px;
+   box-shadow: 10px 10px 10px;
+   transition: 1s ease-out;
+   -webkit-transition: 1s ease-out;
+   }
+
+  .flexbox > div:nth-child(1) { background-color: lightgrey;}
+  .flexbox > div:nth-child(2) { background-color: lightgrey; }
+  .flexbox > div:nth-child(3) { background-color: lightgrey; }
+  .flexbox > div:nth-child(4) { background-color: lightgrey; }
+
+
+  .flexbox > div:hover { width: 200px; color: white; font-weight: bold; }
+
+  .flexbox > div:nth-child(1):hover { background-color: royalblue; }
+  .flexbox > div:nth-child(2):hover { background-color: crimson; }
+  .flexbox > div:nth-child(3):hover { background-color: crimson; }
+  .flexbox > div:nth-child(4):hover { background-color: darkgreen; }
+
+  .normal {
+    text-decoration: none;
+    color: black;
+  }
+
+  <!-- p { height: 250px; overflow: hidden; font-family: "Rosario" } -->

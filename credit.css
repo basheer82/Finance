@@ -1,0 +1,24 @@
+
+.container{
+  margin: 90px;
+}
+
+.row{
+  margin: 20px 70px 20px;
+}
+
+label {
+        margin-right: 20px;
+}
+
+input {
+        width: 100px;
+      }
+
+ #creditDebit {
+                 margin-left: 50px;
+           }
+
+#intrestRate  {
+               margin-left: 50px;
+              }
