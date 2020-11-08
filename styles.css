@@ -1,9 +1,9 @@
 
   .flexbox
   {
-    margin-left: 20%;
+   margin-left: 30%;
    width: 600px;
-   height: 420px;
+   height: 440px;
    display: box;
    display: -webkit-box;
    box-orient: horizontal;
@@ -21,7 +21,7 @@
    -webkit-border-radius: 10px;
 
    margin: 90px 0px 50px ;
-   padding: 10px 10px 10px 10px;
+   padding: 0px 10px 10px 10px;
    box-shadow: 10px 10px 10px;
    transition: 1s ease-out;
    -webkit-transition: 1s ease-out;
@@ -45,4 +45,33 @@
     color: black;
   }
 
-  <!-- p { height: 250px; overflow: hidden; font-family: "Rosario" } -->
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#thumbs {
+    display: inline;
+    width: 192px;
+    height: 370px;
+    padding: 0px 10px 40px;
+    margin-left: 100px;
+    margin-top: 0px;
+
+}
+
+#mainimg {
+    float: left;
+    width: 289px;
+    padding: 0px 20px 0px;
+}
+
+#imgCover {
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 373px;
+}
+#contentText{
+  padding: 40px 330px;
+  font-size: 1.5rem;
+}
