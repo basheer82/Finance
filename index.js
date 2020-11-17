@@ -26,7 +26,7 @@ function displayText(txt)
   switch(txt)
   {
     case "deposit-big":
-     document.getElementById("contentText").innerHTML = "Fixed Time Deposits, Fixed reates on money ";
+     document.getElementById("contentText").innerHTML = "Fixed Time Deposits, fixed rates ";
      break;
 
     case "loan-big":
