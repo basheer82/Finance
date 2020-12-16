@@ -13,6 +13,10 @@ input   {
 .amount {
     margin-left: 33px;
 }
+
+#tenursTxt {
+      margin-left: 7px;
+}
 .intrest {
     margin-left: 7px;
 }
